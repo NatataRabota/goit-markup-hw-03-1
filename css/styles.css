@@ -184,6 +184,7 @@ img {
     display: inline-block;
     align-items: center;
     letter-spacing: 0.06em;
+    border: transparent;
     cursor: pointer;
     padding: 10px 32px;
     color: #FFFFFF;
@@ -361,6 +362,9 @@ footer {
     letter-spacing: 0.03em;
     height: 38px;
     top: 174px;
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
     color: #212121;
 }
 
