@@ -230,7 +230,7 @@ img {
 
 /* ------ ABOUT ------ */
 .title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -305,19 +305,22 @@ img {
 /* ------ FOOTER ------ */
 footer {
     padding: 60px 0px;
-    min-width: 1600px;
-    min-height: 252px;
     background-color: #2F303A;
 }
 
 .address-text {
     margin-top: 20px;
+    margin-bottom: 9px;
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1,714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .contact-list {
