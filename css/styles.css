@@ -307,9 +307,11 @@ footer {
     padding: 60px 0px;
     background-color: #2F303A;
 }
+.footer .address {
+    margin-top: 20px;
+}
 
 .address-text {
-    margin-top: 20px;
     margin-bottom: 9px;
     font-family: var(--main-font);
     font-weight: 400;
